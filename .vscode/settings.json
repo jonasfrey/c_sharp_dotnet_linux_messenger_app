@@ -1,0 +1,5 @@
+{
+    "javascript.inlayHints.parameterNames.enabled": "all",
+    "editor.insertSpaces": true,
+    "editor.tabSize": 4,
+}

@@ -1,0 +1,18 @@
+{
+    "kind": "collectionType",
+    "collectionName": "o-person",
+    "info": {
+        "singularName": "o-person",
+        "pluralName": "a-o-person",
+        "displayName": "O_person",
+        "description": ""
+    },
+    "options": {},
+    "pluginOptions": {},
+    "attributes": {
+        "s_name": {
+            "private": false,
+            "type": "string"
+        }
+    }
+}

@@ -35,3 +35,14 @@ dotnet add package Microsoft.EntityFrameworkCore.Design
 dotnet ef migrations add InitialCreate
 dotnet ef database update
 ```
+
+## vscode paramater hints 
+although it should be already in this repository
+i highly recommend adding this to `./.vscode/settings.json`
+```json
+    {
+      //...
+          "javascript.inlayHints.parameterNames.enabled": "all",
+      //...
+    }
+```

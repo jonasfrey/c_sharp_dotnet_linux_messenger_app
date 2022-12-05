@@ -1,0 +1,18 @@
+{
+    "kind": "collectionType",
+    "collectionName": "o-message",
+    "info": {
+        "singularName": "o-message",
+        "pluralName": "a-o-message",
+        "displayName": "O_message",
+        "description": ""
+    },
+    "options": {},
+    "pluginOptions": {},
+    "attributes": {
+        "s_markdown": {
+            "private": false,
+            "type": "string"
+        }
+    }
+}

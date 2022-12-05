@@ -22,20 +22,4 @@ public class BloggingContext : DbContext
         => options.UseSqlite($"Data Source={DbPath}");
 }
 
-public class Blog
-{
-    public int BlogId { get; set; }= default!;
-    public string Url { get; set; }= default!;
 
-    public List<Post> Posts { get; } = new();
-}
-
-public class Post
-{
-    public int PostId { get; set; } = default!;
-    public string Title { get; set; }= default!;
-    public string Content { get; set; }= default!;
-
-    public int BlogId { get; set; }= default!;
-    public Blog Blog { get; set; }= default!;
-}
