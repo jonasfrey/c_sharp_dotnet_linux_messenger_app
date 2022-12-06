@@ -2,6 +2,7 @@ class O_model_property{
     constructor(
         s_name,
         s_type,
+        b_signed = true, 
         b_private = false,
         n_minimum_number = null, 
         n_maximum_number = null, 
@@ -18,6 +19,7 @@ class O_model_property{
     ){
         this.s_name = s_name
         this.s_type = s_type
+        this.b_signed = b_signed
         this.b_private = b_private
         this.n_minimum_number = n_minimum_number
         this.n_maximum_number = n_maximum_number

@@ -40,7 +40,8 @@ ${a_o_model.map(o=> `${s_indentation}public DbSet<${o.s_name}> a_${o.s_name.toLo
     }
     `
 
-    var s_path_file = `./csharp_classes/${s_class_name}.cs`;
+    var s_path_file = `./../../${s_class_name}.cs`;
+    console.log(s_path_file)
 
     f_write_file(
         s_path_file, 

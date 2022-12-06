@@ -70,10 +70,10 @@ namespace O_simple_http_server
                 }
                 if(req.Url.AbsolutePath == "/read"){
 
-                    Console.WriteLine("Querying for a blog");
-                    var blog = db.Blogs
-                        .OrderBy(b => b.BlogId)
-                        .First();
+                    // Console.WriteLine("Querying for a blog");
+                    // var blog = db.Blogs
+                    //     .OrderBy(b => b.BlogId)
+                    //     .First();
 
                 }
                 if(req.Url.AbsolutePath == "/create"){

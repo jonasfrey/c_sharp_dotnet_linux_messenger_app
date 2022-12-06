@@ -1,4 +1,8 @@
 
+using System.ComponentModel.DataAnnotations.Schema;
+using System.ComponentModel.DataAnnotations;
+
+[Table("A_o_post")]
 public class Post
 {
     public int PostId { get; set; } = default!;
